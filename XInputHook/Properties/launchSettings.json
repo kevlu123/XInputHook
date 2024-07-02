@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "XInputHook": {
+      "commandName": "Project",
+      "nativeDebugging": true
+    }
+  }
+}
