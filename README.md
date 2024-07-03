@@ -55,7 +55,7 @@ You must implement this function. This function is called when an input event oc
 Parameters
 
 - `int index` The index of the controller (0 <= index <= 3).
-- `table? state` A table representing a [XINPUT_STATE](https://learn.microsoft.com/en-us/windows/win32/api/xinput/ns-xinput-xinput_state) struct or nil for a disconnected controller state. Missing fields are assumed to be zero. 
+- `table? state` A table representing a [XINPUT_STATE](https://learn.microsoft.com/en-us/windows/win32/api/xinput/ns-xinput-xinput_state) struct or nil for a disconnected controller state. Missing fields in state.Gamepad are assumed to be zero.
 
 Set the controller state to be reported to the hooked process.
 

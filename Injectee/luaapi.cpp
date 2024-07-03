@@ -339,7 +339,7 @@ static int SetState(lua_State* L) {
     }
 
     if (!lua_istable(L, 2)) {
-        lua_pushstring(L, "Invalid argument #2: expected table");
+        lua_pushstring(L, "Invalid argument #2: expected table or nil");
         lua_error(L);
     }
 
