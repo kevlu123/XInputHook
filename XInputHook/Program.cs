@@ -1,7 +1,7 @@
 namespace XInputHook;
 
 static class Program {
-    public const string Version = "1.0";
+    public const string Version = "1.1";
 
     [STAThread]
     static void Main() {
